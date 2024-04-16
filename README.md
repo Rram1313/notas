@@ -3,7 +3,7 @@
 **Título:** Tandemnotas  
 **Versión:** 1.0.0  
 **Autor(es):** Equipo de Desarrollo
-**Licencia:**
+**Licencia:** ""
 
 ### 2. Descripción general:
 
