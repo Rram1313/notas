@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  color: #ffffff; 
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #525252;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1{
+  text-align: center;
+}
+
+#show-notas {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nota {
+  background-color: #ffd700;
+  color: black;
+  padding: 10px;
+  margin-right: 10px; 
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+#btn-add-nota,
+#btn-clean-nota {
+  background-color: #ffffff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#btn-add-nota:hover,
+#btn-clean-nota:hover {
+  background-color: #9c9c9c;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+input[type="datetime-local"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
